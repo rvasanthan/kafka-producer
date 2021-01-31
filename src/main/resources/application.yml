@@ -1,0 +1,8 @@
+adonis:
+  kafka:
+    bootstrap-servers: localhost:9092
+    topic-quickstart: quickstart-events
+    topic:
+      default: quickstart-events
+  consumer:
+    group: first-group
